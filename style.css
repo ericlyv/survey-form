@@ -1,10 +1,10 @@
 *{
-	font-family: 'Roboto', sans-serif;
 	padding: 0;
 	margin: 0;
 }
 
 body{
+	font-family: 'Roboto', sans-serif;
 	background: #28b293;
 	text-align: center;
 }
@@ -66,6 +66,10 @@ main{
 	vertical-align: top;
 }
 
+.comment-area{
+	resize: vertical;
+}
+
 .btn{
 	margin: 25px auto 15px;
 	background: #555;
@@ -76,6 +80,7 @@ main{
 	border-radius: 5px;
 	font-size: 16px;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .btn:hover{
@@ -151,8 +156,8 @@ main{
 	}
 
 	.foot{
-		font-size: 3vw;
-		margin: 3%;
+		font-size: 15px;
+		margin: 15px;
 	}
 }
 /* MEDIA QUERY 600PX END */
